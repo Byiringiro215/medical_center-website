@@ -1,0 +1,129 @@
+.footer{
+    background-color: #003366;
+}
+.upperfooter{
+    display: grid;
+    grid-template-columns:2fr 1fr 2fr 2fr ;
+    margin: 2rem 0rem;
+    width: 100%;
+    padding: 2rem;
+    
+}
+.left{
+    display: flex;
+    gap: 1rem;
+}
+.left span{
+    color: #159decb7;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 600;
+}
+.left p{
+    font-family: 'Poppins';
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.733);
+}
+.leftcenter,.rightcenter{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    font-family: 'Poppins';
+}
+ul{
+    list-style: none;
+}
+.leftcenter,.rightcenter h4{
+    color: white;
+    font-size: 18px;
+}
+.leftcenter h4{
+    color: white;
+    font-size: 18px;
+}
+.leftcenter li{
+    color: rgba(255, 255, 255, 0.733);
+}
+.leftcenter li:hover{
+    color: #159dec;
+    cursor: pointer;
+}
+.leftcenter,.rightcenter li{
+font-size: 15px;
+color: rgba(255, 255, 255, 0.733);
+}
+.right{
+    display: flex;
+    font-family: 'Poppins';
+}
+.right h4{
+    color: white;
+    font-size: 18px;
+    
+}
+.email-input{
+    display: flex;
+}
+.email-input input{
+    height:3rem;
+    width: 20rem;
+    padding: 1rem;
+    background-color:#159decbd;
+    color: rgba(255, 255, 255, 0.527);
+    outline: none;
+    border: none;
+}
+.email-input input::placeholder{
+    color:#003366 ;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.email-input button{
+  background-color: #159dec;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:white;
+    font-size:16px;
+    height: 3rem;
+    width: 5rem;
+    cursor: pointer;
+}
+.lowerfooter{
+    display: flex;
+    color: rgba(255, 255, 255, 0.87);
+    justify-content: start;
+    margin-left: 2rem;
+    gap: 35rem;
+  margin-top: 2rem;
+    height: 6rem;
+}
+.footericons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+hr{
+    background-color: grey;
+    outline: none;
+    margin: 0rem 2rem;
+    text-align: center;
+}
+@media(max-width:720px){
+    .upperfooter{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .email-input{
+        margin-left: 6rem;
+    }
+    .lowerfooter{
+        display: inline;
+        text-align: center;
+    }
+ 
+}

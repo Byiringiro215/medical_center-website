@@ -1,0 +1,77 @@
+.doctors h2,h1{
+    text-align: center;
+}
+.doctors h2{
+    color:#159EEC;
+    margin: 3rem 0rem 1rem 0rem;
+}
+.doctors h1{
+    color: #003366;
+}
+.slider-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  .swiper {
+    width: 100%;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .doctor-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .doctor-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .doctor-info {
+    padding: 15px;
+  }
+  
+  .doctor-info h3 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .doctor-info p {
+    color: #0077b6;
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+
+    cursor: pointer;
+  }
+  
+  .profile-btn {
+    background: #003366;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-btn:hover {
+    background: #0055a5;
+  }
+  

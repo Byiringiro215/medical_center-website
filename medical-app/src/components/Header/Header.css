@@ -1,0 +1,44 @@
+.header{
+    margin: 1rem 0rem;
+    display: flex;
+    gap: 25rem;
+}
+.all_info{
+    display: flex;
+ gap: 5rem;
+}
+
+.logo{
+    color: #1F2B6C;
+    display: flex;
+    margin-left: 2rem;
+}
+.logo span{
+    color: #159EEC;
+ 
+}
+
+ .header-left,.header-center,.header-right{
+    display: flex;
+    flex-direction: row;
+} 
+.header-icon{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.all_info h2{
+    color:#1F2B6C ;
+}
+.all_info span{
+    color: #159EEC;
+    font-weight: 500;
+}
+
+@media(max-width:720px){
+    .all_info{
+        /* display: grid;
+        gap: 1rem; */
+      display: none;
+    }
+    
+}

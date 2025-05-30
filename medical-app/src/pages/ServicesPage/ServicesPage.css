@@ -1,0 +1,81 @@
+.services-page-header{
+    background: url('/Rectangle 3 (1).png') no-repeat;
+    background-size: cover;
+    height: 20rem;
+    padding: 8rem 12rem;
+    opacity: 0.9;
+}
+.services-page-header .link{
+     font-family: 'Poppins';
+     font-weight: 700;
+     font-size: 20px;
+     text-decoration: none;
+     font-size: 600;
+}
+.services-page-header .link:active{
+    color: #003366 ;
+}
+.services-page-header span{
+    font-size: 25px;
+}
+.services-page-header h1{
+    text-align: left;
+    color: #003366 ;
+}
+
+.service-page-service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    margin: 4rem 5rem 0rem  5rem;
+}
+@media(max-width:720px){
+    .service-page-service-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+.service-page-service{
+  
+    height:552px;
+}
+.image{
+    position: relative;
+    background-size: cover;
+}
+.image img{
+    width: 100%;
+}
+.service-icon{
+    position: absolute;
+    margin-left:17rem;
+    background-color: #003366;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding:10px;
+    border-radius: 50%;
+    margin-top: -25px;
+   z-index: 1;
+   cursor: pointer;
+}
+.service-name{
+    color: #003366;
+    font-family: 'Poppins';
+    margin: 1rem;
+}
+.service-description{
+    margin: 1rem;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.learn-more{
+    color: #159EEC;
+    font-family: 'Poppins';
+    margin: 1rem;
+    cursor: pointer;
+}
+.image:hover{
+background-color: #003366;
+opacity: 0.9;
+}

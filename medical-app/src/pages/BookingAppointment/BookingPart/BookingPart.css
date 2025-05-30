@@ -1,0 +1,81 @@
+.booking{
+    display: flex;
+    flex-direction: column;
+    width: 33rem;
+    background: none;
+    margin: 0rem 5rem;
+    padding-left: 3rem;
+    background-size: cover;
+}
+.booking-left{
+    margin:2rem 5rem 0 0 ;
+}
+.booking-left h2{
+    color: #159EEC;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    text-align: start;
+}
+.booking .booking-paragraph{
+    text-align: justify;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: black;
+}
+.booking-right{
+    margin-top: 2rem;
+}
+.booking-right form{
+    background-color:#1F2B6C ;
+}
+.booking-right form input,select{
+   height: 3.5rem;
+   width: 15rem;
+   padding: 1rem;
+   background-color: #1F2B6C;
+   border-top: transparent;
+   border-left: transparent;
+   outline: none;
+   color: white;
+   border-color: white;
+
+}
+.booking-right form input{
+    color: white;
+  
+}
+.booking-right form select{
+    color: white;
+  
+}
+
+.booking-right form input::placeholder{
+color: white;
+font-family: 'Poppins';
+}
+.booking-right form textarea{
+    height: 7rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #1F2B6C;
+    padding: 1rem;
+    font-family: 'Poppins';
+    color: white;
+    resize: none; 
+   overflow: auto;
+
+}
+.booking-right form textarea::placeholder{
+    color: white;
+}
+.booking-right button{
+    width: 100%;
+    height: 2rem;
+    border: transparent;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #1F2B6C;
+    background-color: #BFD2F8;
+    cursor: pointer;
+}

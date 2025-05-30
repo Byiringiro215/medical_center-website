@@ -1,0 +1,106 @@
+.contact-page-nav{
+    background: url('/Rectangle 3 (3).png') no-repeat;
+    background-size: cover;
+    height: 20rem;
+    padding: 8rem 12rem;
+    opacity: 0.7;
+}
+.contact-page-nav .link{
+     font-family: 'Poppins';
+     font-size: 20px;
+     text-decoration: none;
+     font-size: 600;
+}
+.contact-page-nav .link:active{
+    color: #003366 ;
+}
+.contact-page-nav span{
+    font-size: 25px;
+}
+.contact-page-nav h1{
+    text-align: left;
+    color: #003366 ;
+}
+.contact-page-image{
+    height: 450px;
+    width: 992px;
+    margin: 2rem 8rem;
+}
+.getInTouch{
+    display: flex;
+    justify-content: space-between;
+
+}
+.getInTouch-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  
+}
+.getInTouch-h2{
+    color: #003366;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.getInTouch-h3{
+    color: #159EEC;
+    font-family: 'Poppins';
+    text-align: left;
+}
+.getInTouch-left{
+    display: flex;
+    flex-direction: column;
+}
+.first-two{
+    display: flex;
+}
+.first-two input,.subject-input{
+    height: 50px;
+    width: 100%;
+    padding-left: 1rem;
+    color: white;
+    background-color: #003366;
+    border: 1px solid white;
+    outline: white;
+  
+}
+form{
+    background: #003366;
+}
+.getInTouch{
+    height: 450px;
+    width: 992px;
+    margin: 2rem 8rem;
+}
+.subject-input{
+    width: 100%;
+}
+
+ .getInTouch form textarea{
+    height: 5rem;
+    padding: 1rem;
+    color: white;
+    background-color: #003366;
+    border: none;
+    outline: white;
+    width: 100%;
+    resize: none;
+}
+::placeholder{
+    color: white;
+    font-family: 'Poppins';
+}
+  .getInTouch form button{
+    height: 2rem;
+    width: 100%;
+    cursor: pointer;
+    color: #003366;
+    background-color: #BFD2F8;
+    border: none;
+    margin-top: 10rem;
+    bottom: 0;
+}
+ .getInTouch form{
+    height: 37rem;
+    width: 30rem;
+}

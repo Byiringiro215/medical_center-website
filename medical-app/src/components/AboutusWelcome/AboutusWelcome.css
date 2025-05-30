@@ -1,0 +1,58 @@
+.aboutus-welcome{
+    display: flex;
+    list-style: none;
+    margin:  3rem;
+}
+ .aboutus-welcome .welcome-h1{
+    font-size: 35px;
+    color: #1F2B6C;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.aboutus-welcome .welcome-h3{
+    color: #159EEC;
+    margin: 1rem 0rem;
+}
+.welcome-service{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    margin-bottom: 2rem;
+}
+.aboutus-welcome-right{
+    padding-left: 2rem;
+}
+.welcome-service li{
+    font-family: 'Poppins';
+    
+}
+.service-content{
+    font-family: 'Poppins';
+
+}
+.testimonials{
+    background: url('/Rectangle 53.png') no-repeat ;    
+    background-size: cover;
+    height: 23rem;
+    text-align: center;
+    padding: 5rem 12rem;
+    font-family: 'Poppins';
+    color:white;
+    font-weight: 700;
+}
+.testimonials p{
+    margin-top: 2rem;
+    width: 50rem;
+}
+.testimonials hr{
+    width: 10rem;
+    height:3px;
+    outline: none;
+    background-color: white;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 20rem;
+}
+.name{
+    color: #159EEC;
+}

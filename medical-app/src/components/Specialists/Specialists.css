@@ -1,0 +1,49 @@
+.specialists{
+    padding-top: 5rem;
+    display: grid;
+    
+}
+.specialists h3{
+    text-align: center;
+    color: #159EEC;
+    margin-bottom: 2rem;
+    font-family: 'Poppins';
+}
+.specialists h2{
+    text-align: center;
+    color: #1F2B6C;
+}
+.all-specialists{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0rem 5rem;
+}
+.specialist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 5px;
+    font-size: 20px;
+   cursor: pointer;
+}
+.specialist:hover{
+    background-color: #1F2B6C;
+    color: white;
+}
+ .specialist .active{
+    background-color: #1F2B6C;
+    color: white;
+}
+@media(max-width:720px){
+    .specialists h3{
+       text-align:left;
+       margin-left: 18rem;
+    }
+    .specialists h2{
+        text-align:left;
+        margin-left: 17rem;
+    }
+}

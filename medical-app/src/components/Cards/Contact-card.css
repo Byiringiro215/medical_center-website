@@ -1,0 +1,19 @@
+.card{
+    background-color: #159dec8f;
+    color: #1F2B6C;
+    font-family: 'Poppins';
+    font-size: 14px;
+    height: 13rem;
+    width: 12rem;
+    padding:2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.card:hover{
+    background-color: #1F2B6C;
+    color: white;
+    box-shadow: 1px 1px 10px 10px #159dec8f ;
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}

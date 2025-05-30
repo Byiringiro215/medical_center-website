@@ -1,0 +1,26 @@
+.contacts .title{
+    text-align: center;
+    color: #159EEC;
+    font-family: 'Poppins';
+    margin-top: 2rem;
+}
+.contacts .subtitle{
+    text-align: center;
+    color:#1F2B6C  ;
+}
+.allcontacts{
+    display: flex;
+    gap: 2rem;
+    margin: 3rem 0 0 14rem;
+}
+@media(max-width:720px){
+    .allcontacts{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left:2rem;
+    
+        column-gap: 0;
+
+        
+    }
+}

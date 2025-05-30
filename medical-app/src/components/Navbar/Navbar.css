@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ .navbar a{
+    text-decoration: none;
+    display: inline;
+    cursor: pointer;
+    color: white;
+}
+.navbar a:hover{
+    color: #BFD2F8;
+}
+ .navbar ul{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 1rem;
+    font-size:20px;
+    font-family:'Work Sans' ;
+    color: white;
+}
+.navbar{
+    padding: 0rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2B6C;
+    height: 4.5rem;
+    width: 100%;
+}
+.navbar-right{
+    display: flex;
+    gap:1rem;
+    margin-top: 1rem;
+}
+.icon{
+    cursor: pointer;
+}
+.navbar-right button{
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Poppins';
+    background-color:#BFD2F8;
+    cursor: pointer;
+}
+.navbar-right button:hover{
+    background-color:#bfd2f8ee;
+}
+.active{
+    margin: 0;
+    position: relative;
+}
+
+
+
+
+.navbar ul a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0; 
+    height: 3px; 
+    background-color: #BFD2F8; 
+    border-radius: 25px;
+    animation: borderExpand 0.4s ease-in-out forwards;
+  }
+  
+  @keyframes borderExpand {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @media(max-width:720px){
+    .navbar{
+        padding: 0;
+    }
+    .icon{
+        display: none;
+    }
+    .navbar-right button{
+        width: 6rem;
+    }
+  }
